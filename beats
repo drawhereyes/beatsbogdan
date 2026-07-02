@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мои биты</title>
+</head>
+<body>
+    <h1>Скачай мои биты (10 шт)</h1>
+    <ul>
+        <li><a href="beat1.mp3" download>Скачать бит 1</a></li>
+        <li><a href="beat2.wav" download>Скачать бит 2</a></li>
+        <li><a href="beat3.mp3" download>Скачать бит 3</a></li>
+        <li><a href="beat4.mp3" download>Скачать бит 4</a></li>
+        <li><a href="beat5.wav" download>Скачать бит 5</a></li>
+        <li><a href="beat6.mp3" download>Скачать бит 6</a></li>
+        <li><a href="beat7.mp3" download>Скачать бит 7</a></li>
+        <li><a href="beat8.wav" download>Скачать бит 8</a></li>
+        <li><a href="beat9.mp3" download>Скачать бит 9</a></li>
+        <li><a href="beat10.mp3" download>Скачать бит 10</a></li>
+    </ul>
+</body>
+</html>
