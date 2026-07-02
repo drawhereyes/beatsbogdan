@@ -2,15 +2,74 @@
 <html>
 <head>
     <title>Мои биты</title>
+    <style>
+        /* 1. Настройка всей страницы (фона) */
+        body {
+            background-image: url('photo_2025-11-05_02-38-29.jpg'); /* */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* Чтобы текст был виден */
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* 2. Полупрозрачный блок-карточка, чтобы текст читался */
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px 50px;
+            border-radius: 20px;
+            text-align: center;
+            backdrop-filter: blur(5px); /* лёгкое размытие фона */
+        }
+
+        /* 3. Стили для списка ссылок */
+        ul {
+            list-style: none; /* убираем маркеры */
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        /* 4. Кнопки для скачивания */
+        a {
+            display: inline-block;
+            background: #1db954; /* зелёный цвет, как у Spotify */
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s;
+            width: 200px;
+        }
+
+        a:hover {
+            background: #1aa34a;
+            transform: scale(1.03); /* лёгкое увеличение при наведении */
+        }
+    </style>
 </head>
 <body>
-    <h1>Скачай мои биты (10 шт)</h1>
-    <ul>
-        <li><a href="Project_18.mp3" download>Скачать бит 1</a></li>
-        <li><a href="Project_247 15555555.flac" download>Скачать бит 2</a></li>
-        <li><a href="Project_49 g#minor 152 .mp3" download>Скачать бит 3</a></li>
-        <li><a href="Project_58 f# major 140.flac" download>Скачать бит 4</a></li>
-        <li><a href="g#major 177.mp3" download>Скачать бит 5</a></li>
-    </ul>
+    <div class="card">
+        <h1>🎧 Скачай мои биты (5 шт)</h1>
+        <ul>
+            <li><a href="Project_18.mp3" download>Скачать бит 1</a></li>
+            <li><a href="Project_247 15555555.flac" download>Скачать бит 2</a></li>
+            <li><a href="Project_49 g#minor 152 .mp3" download>Скачать бит 3</a></li>
+            <li><a href="Project_58 f# major 140.flac" download>Скачать бит 4</a></li>
+            <li><a href="g#major 177.mp3" download>Скачать бит 5</a></li>
+        </ul>
+    </div>
 </body>
 </html>
